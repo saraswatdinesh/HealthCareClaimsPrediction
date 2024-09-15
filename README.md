@@ -1,6 +1,6 @@
-**HealthCare Claims Prediction: Data-Driven Insights for Smarter Insurance Premiums**
+# HealthCare Claims Prediction: Data-Driven Insights for Smarter Insurance Premiums
 
-**Project Overview**
+# # Project Overview
 
 Healthcare is increasingly data-driven, and predictive analytics play a crucial role in helping organizations make informed decisions. In this project, we set out to develop a predictive model that estimates healthcare claims for the upcoming year. By leveraging historical patient data, including preconditions, age, and prior claims amounts, we aim to help healthcare companies better align their insurance premiums and mitigate risks associated with high claim amounts.
 
