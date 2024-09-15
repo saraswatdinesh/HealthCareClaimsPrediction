@@ -6,7 +6,7 @@
 
 Healthcare is increasingly data-driven, and predictive analytics play a crucial role in helping organizations make informed decisions. In this project, we set out to develop a predictive model that estimates healthcare claims for the upcoming year. By leveraging historical patient data, including preconditions, age, and prior claims amounts, we aim to help healthcare companies better align their insurance premiums and mitigate risks associated with high claim amounts.
 
-## Key Objective**
+## Key Objective
 
 The central goal of this initiative is to build a reliable model that accurately predicts the claims amount for patients based on their pre-existing conditions and historical data. This would enable healthcare providers to adjust insurance premiums dynamically, balancing their financial risks while offering more targeted interventions for high-risk patients.
 
@@ -25,7 +25,19 @@ Before diving into predictive modeling, we conducted an **Exploratory Data Analy
 **2. Feature Importance Insights**
 Through EDA, several key insights emerged:
 
-**Preconditions Matter:** Patients with more than one high-level precondition (Level 4) had significantly higher average claims than others.
+**Preconditions Matter:** Patients with preconditions at level 4 and beyond show higher mean claims amount wrt to lower levels.
+
+![Screenshot 2024-09-14 at 7 20 22 PM](https://github.com/user-attachments/assets/ac74ee6d-0913-4f82-ae63-095e42108432)
+
+patients with a higher number of existing preconditions have higher mean claims amounts.
+
+![Screenshot 2024-09-14 at 7 18 44 PM](https://github.com/user-attachments/assets/f32b452f-05ca-4e8d-adbd-cee52fbb8ab8)
+
+**Critical Preconditions Matter:** Patients with more than one high-level precondition (Level 4) had significantly higher average claims than others.
+
+![Screenshot 2024-09-14 at 7 19 38 PM](https://github.com/user-attachments/assets/0cdc86c4-feb3-4d2c-b7fe-68de7c02b561)
+
+
 **Age Needs Scaling:** Age had a wide range of values, and we scaled this variable to avoid it disproportionately influencing the model’s predictions.
 **Claims History:** Unsurprisingly, previous claims amounts played a vital role in predicting future claims. Patients with higher claims in the past were more likely to generate larger claims in the upcoming year.
 
